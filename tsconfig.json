@@ -25,9 +25,5 @@
     "baseUrl": "."
   },
   "exclude": ["node_modules"],
-  "include": ["./src/**/*.ts"],
-  "typedocOptions": {
-    "entryPoints": ["src/index.ts"],
-    "out": "docs"
-  }
+  "include": ["./src/**/*.ts"]
 }
