@@ -14,7 +14,7 @@ A simple launchpad for building an organized Typescript + Node JS + Express HTTP
 
 #### Build an Image
 
-```shell
+```
 ~$ docker build -t {username}/{image-name}:{tag-name}
 ```
 
