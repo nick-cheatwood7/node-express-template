@@ -7,7 +7,7 @@ import v1 from "./routes/v1";
 const app: Express = express();
 
 // Apply middleware
-app.set("proxy", 1);
+app.set("trust proxy", 1);
 app.use(cors());
 app.use(express.json());
 
